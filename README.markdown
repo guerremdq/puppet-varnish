@@ -12,29 +12,29 @@
 5. [Operating Systems Support](#operating-systems-support)
 6. [Development](#development)
 
-##Overview
+## Overview
 
 This module installs and configures varnish.
 
-##Module Description
+## Module Description
 
 The module is based on **stdmod** naming standars.
 
 Refer to http://github.com/stdmod/ for complete documentation on the common parameters.
 
 
-##Setup
+## Setup
 
-###Resources managed by varnish module
+### Resources managed by varnish module
 * This module installs the varnish package
 * Can manage all the configuration files (by default no file is changed)
 
-###Setup Requirements
+### Setup Requirements
 * PuppetLabs stdlib module
 * Puppet version >= 2.7.x
 * Facter version >= 1.6.2
 
-###Beginning with module varnish
+### Beginning with module varnish
 
 To install the package provided by the module just include it:
 
@@ -53,7 +53,7 @@ The module provides also a generic define to manage any varnish configuration fi
         }
 
 
-##Usage
+## Usage
 
 * A common way to use this module involves the management of the main configuration file via a custom template (provided in a custom site module):
 
@@ -101,7 +101,7 @@ The module provides also a generic define to manage any varnish configuration fi
         }
 
 
-##Operating Systems Support
+## Operating Systems Support
 
 This is tested on these OS:
 - RedHat osfamily 5 and 6
@@ -109,7 +109,7 @@ This is tested on these OS:
 - Ubuntu 10.04 and 12.04
 
 
-##Development
+## Development
 
 Pull requests (PR) and bug reports via GitHub are welcomed.
 
